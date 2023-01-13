@@ -1,0 +1,22 @@
+Package: fastmedian
+Type: Package
+Title: Fast Median Function Using C++
+Version: 1.0
+Date: 2023-01-13
+Authors@R: c(
+    person("Matt", "Strimas-Mackey", , "mes335@cornell.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8929-7776")),
+    person("Shawn", "Ligocki", , "sligocki@cornell.edu", role = "aut"),
+    person("Tom", "Auer", , "mta45@cornell.edu", role = "aut",
+           comment = c(ORCID = "0000-0001-8619-7147")),
+    person("Cornell Lab of Ornithology", role = "cph")
+  )
+Maintainer: Matt Strimas-Mackey <mes335@cornell.edu>
+Description: An optimzed median funciton using compiled C++ code.
+License: GPL (>= 2)
+Imports: 
+    Rcpp
+LinkingTo: Rcpp
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
