@@ -6,16 +6,6 @@
 An optimized median function that uses C++ code to quickly calculate the
 median of a numeric vector after removing NA values.
 
-## Installation
-
-You can install the development version of `fastmedian` with:
-
-``` r
-remotes::install_github("mstrimas/ebirdstwf")
-```
-
-## Example
-
 ``` r
 library(fastmedian)
 med(1:4)
